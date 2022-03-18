@@ -11,6 +11,8 @@ Quando('eu preencho o cadastro') do
   find('#user_age').send_keys('2 anos e 6 meses')
   find('input[value="Criar"]').click
 
+  sleep 15
+
 end
 
 Entao('verifico se foi cadastrado') do
@@ -19,4 +21,6 @@ Entao('verifico se foi cadastrado') do
 
   sleep 6
 end
+
+
 

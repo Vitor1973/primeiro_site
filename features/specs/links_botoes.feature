@@ -4,6 +4,6 @@
   Funcionalidade: Clicando em links e botoes
 
 
-    Cenario: Clicando em links e Botoes
+  Cenario: Clicando em links e Botoes
   Quando clico em botoes
 
