@@ -1,7 +1,7 @@
 require "capybara/cucumber"
 require "capybara/dsl"
 require "capybara/rspec/matchers"
-#require "selenium-webdriver"
+require "selenium-webdriver"
 require "webdrivers/chromedriver" ## Foi a solução de um grande problema #ChromeWebdriver versão desatualizada#
 require "site_prism"
 
