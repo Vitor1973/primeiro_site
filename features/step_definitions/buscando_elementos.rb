@@ -20,6 +20,7 @@ Entao('verifico se encontrei os elementos') do
   find('a.button--primary:nth-child(1)').click #ok
   sleep 5
   find('button.button--large:nth-child(1) > span:nth-child(2)').click  # ok
+  byebug
   find('#identifierId').set('vitor.devechi@gmail.com') #ok
 end
 
